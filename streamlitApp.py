@@ -37,11 +37,11 @@ with st.sidebar:
     st.image(img)
     st.subheader("About Agrivision")
     st.write(
-        "Agrivision is a state-of-the-art convolutional neural network (CNN) algorithm that is specifically designed for detecting plant diseases. It utilizes transfer learning by fine-tuning the ResNet 34 model on a large dataset of leaf images to achieve an impressive 99.2% accuracy in detecting various plant diseases. The algorithm is trained to identify specific patterns and features in the leaf images that are indicative of different types of diseases, such as leaf spots, blights, and wilts."
+        "Agrivision is a state-of-the-art convolutional neural network (CNN) algorithm that is specifically designed for detecting plant leaf diseases. Agrivision, harnesses the power of transfer learning and ResNet 34 to unlock new horizons in the world of agriculture. By skillfully fine-tuning its algorithms on a colossal dataset of leaf images, Agrivision has achieved an astounding 99.2% accuracy rate in identifying a range of plant diseases such as such as leaf spots, blights, and wilts."
     )
 
     st.write(
-        "Agrivision is designed to be highly robust and accurate, with the ability to detect plant diseases in a wide range of conditions and environments. It can be used to quickly and accurately diagnose plant diseases, allowing farmers and gardeners to take immediate action to prevent the spread of the disease and minimize crop losses. With its high level of accuracy and ease of use, ChromaticScan is poised to revolutionize the way plant diseases are detected and managed in the agricultural industry."
+        "Agrivision is designed to be highly robust and accurate, with the ability to detect plant diseases in a wide range of conditions and environments. It can be used to quickly and accurately diagnose plant diseases, allowing farmers and gardeners to take immediate action to prevent the spread of the disease and minimize crop losses. With its high level of accuracy and ease of use, Agrivision is poised to revolutionize the way plant diseases are detected and managed in the agricultural industry."
     )
 
     st.write(
