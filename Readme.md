@@ -12,19 +12,21 @@ Agrivision is designed to be highly robust and accurate, with the ability to det
 <hr>
 <br>
 
-## ⭐ Plant leaf Disease Dataset can be downloaded from the below link.
+## How to use?
 
-> ### ⭐ Dataset Download Link: https://data.mendeley.com/datasets/tywbtsjrjv/1
+1. Open the web app (https://nidhishdubey-agrivision-streamlitapp-rl2qms.streamlit.app/)
+2. Upload the image of the leaf either by browsing the files or through camera.
+3. Click on submit to see the prediction.
+4. To print or record the result, you can click Print or Record a Screencast from the menubar.
+5. Also, if you wish to change the appearance of the app, you may check the settings.
+
+Check the demo video link: https://www.loom.com/share/b16c1ad15dda47e29437ec0362c001af
+
+
+## Plant leaf Disease Dataset can be downloaded from the below link.
+
+> ### Dataset Download Link: https://data.mendeley.com/datasets/tywbtsjrjv/1
 
 <br>
 <hr>
 <br>
-
-## ⭐ Streamlit Deployment Configurations:
-```
-[theme]
-base="dark"
-
-[browser]
-gatherUsageStats = false
-```
