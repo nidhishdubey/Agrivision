@@ -21,10 +21,10 @@ if plt == "Windows":
 np.set_printoptions(suppress=True)
 
 # Set up the page layout
-st.set_page_config(page_title="ChromaticScan", page_icon=":camera:")
+st.set_page_config(page_title="Agrivision", page_icon=":camera:")
 
 
-st.title("ChromaticScan")
+st.title("Agrivision")
 
 st.caption(
     "A ResNet 34-based Algorithm for Robust Plant Disease Detection with 99.2% Accuracy Across 39 Different Classes of Plant Leaf Images."
@@ -35,13 +35,13 @@ st.write("Try clicking a leaf image and watch how an AI Model will detect its di
 with st.sidebar:
     img = Image.open("./Images/leaf.png")
     st.image(img)
-    st.subheader("About ChromaticScan")
+    st.subheader("About Agrivision")
     st.write(
-        "ChromaticScan is a state-of-the-art convolutional neural network (CNN) algorithm that is specifically designed for detecting plant diseases. It utilizes transfer learning by fine-tuning the ResNet 34 model on a large dataset of leaf images to achieve an impressive 99.2% accuracy in detecting various plant diseases. The algorithm is trained to identify specific patterns and features in the leaf images that are indicative of different types of diseases, such as leaf spots, blights, and wilts."
+        "Agrivision is a state-of-the-art convolutional neural network (CNN) algorithm that is specifically designed for detecting plant diseases. It utilizes transfer learning by fine-tuning the ResNet 34 model on a large dataset of leaf images to achieve an impressive 99.2% accuracy in detecting various plant diseases. The algorithm is trained to identify specific patterns and features in the leaf images that are indicative of different types of diseases, such as leaf spots, blights, and wilts."
     )
 
     st.write(
-        "ChromaticScan is designed to be highly robust and accurate, with the ability to detect plant diseases in a wide range of conditions and environments. It can be used to quickly and accurately diagnose plant diseases, allowing farmers and gardeners to take immediate action to prevent the spread of the disease and minimize crop losses. With its high level of accuracy and ease of use, ChromaticScan is poised to revolutionize the way plant diseases are detected and managed in the agricultural industry."
+        "Agrivision is designed to be highly robust and accurate, with the ability to detect plant diseases in a wide range of conditions and environments. It can be used to quickly and accurately diagnose plant diseases, allowing farmers and gardeners to take immediate action to prevent the spread of the disease and minimize crop losses. With its high level of accuracy and ease of use, ChromaticScan is poised to revolutionize the way plant diseases are detected and managed in the agricultural industry."
     )
 
     st.write(
@@ -196,10 +196,10 @@ if submit:
 
 footer = """
 <div style="text-align: center; font-size: medium; margin-top:50px;">
-    If you find ChromaticScan useful or interesting, please consider starring it on GitHub.
+    If you find Agrivision useful or interesting, please consider starring it on GitHub.
     <hr>
-    <a href="https://github.com/SaiJeevanPuchakayala/ChromaticScan" target="_blank">
-    <img src="https://img.shields.io/github/stars/SaiJeevanPuchakayala/ChromaticScan.svg?style=social" alt="GitHub stars">
+    <a href="https://github.com/nidhishdubey/Agrivision" target="_blank">
+    <img src="https://img.shields.io/github/stars/nidhishdubey/Agrivision.svg?style=social" alt="GitHub stars">
   </a>
 </div>
 """
